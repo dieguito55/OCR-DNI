@@ -15,10 +15,18 @@ Aplicacion movil Flutter para escaneo offline de DNI, revision de datos extraido
 ```text
 android/       Integracion nativa Android y OCR offline
 assets/        Imagenes, fuente, modelos OCR y plantilla Excel
+docs/          Manual tecnico, manual de usuario y registro
 lib/           Codigo principal Flutter
+release/       Indicaciones para adjuntar el APK generado
 test/          Pruebas unitarias y de widgets
 pubspec.yaml   Configuracion del proyecto
 ```
+
+Documentacion principal:
+
+- [Manual tecnico](docs/MANUAL_TECNICO.md)
+- [Manual de usuario](docs/MANUAL_USUARIO.md)
+- [Registro de software](docs/REGISTRO_SOFTWARE.md)
 
 ## Requisitos
 
@@ -44,6 +52,14 @@ El APK generado queda en:
 ```text
 build/app/outputs/flutter-apk/app-release.apk
 ```
+
+En esta maquina el APK release actual esta en:
+
+```text
+D:\00.proyectos\xioo\agraria\build\app\outputs\flutter-apk\app-release.apk
+```
+
+El APK no se sube como archivo dentro del repositorio porque es un binario generado. Para entrega formal debe adjuntarse como asset de release o anexo.
 
 ## Notas
 
